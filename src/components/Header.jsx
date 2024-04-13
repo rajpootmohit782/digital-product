@@ -1,18 +1,35 @@
 import React from "react";
+import Logo from "./Logo";
 
 function Header() {
   return (
-    <header className="relative w-full">
+    <header className="relative-0 w-full">
       <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="#" className="flex items-center">
-            <img src="/logo.png" className="h-12 w-auto mr-8" alt="Logo" />
+            {/* <img src="/z1.jpeg" className="h-8 w-auto mr-8" alt="Logo" /> */}
 
-            {/* Increase h-16 to make the logo bigger */}
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-        <span style={{ color: "red", fontSize: "24px" }}>tech</span>
-        <span style={{ color: "blue", fontSize: "24px" }}>Ram</span>
-    </span> */}
+              <span
+                style={{
+                  color: "rgb(251,82,114)",
+                  fontSize: "24px",
+                  fontWeight: "bold",
+                }}
+              >
+                RAM
+              </span>{" "}
+              <span
+                style={{
+                  color: "rgb(150,130,215)",
+                  fontSize: "24px",
+                  fontWeight: "bold",
+                }}
+              >
+                TECH
+              </span>
+            </span> */}
+            <Logo />
           </a>
 
           <div className="flex items-center lg:order-2">
