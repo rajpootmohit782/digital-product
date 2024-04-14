@@ -1,6 +1,11 @@
 import React from "react";
 import "../App.css";
 import ColorChangingHeader from "./ColorChangingHeader";
+import Marketing from "./Marketing.jsx";
+import Trusted from "./Trusted.jsx";
+import Review from "./Review.jsx";
+import Design from "./Design.jsx";
+import FrequentQuestions from "./FrequentQuestions.jsx";
 
 const Homepage = () => {
   return (
@@ -70,6 +75,11 @@ const Homepage = () => {
           />
         </div>
       </div>
+      <Marketing />
+      <Review />
+      <Trusted />
+      <Design />
+      <FrequentQuestions />
     </section>
   );
 };
