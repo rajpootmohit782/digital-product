@@ -12,17 +12,17 @@ const Footer = () => {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href="#" className=" hover:underline">
+                <a href="/aboutus" className=" hover:underline">
                   About Us
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href="/careers" className="hover:underline">
                   Careers
                 </a>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href="/services" className="hover:underline">
                   Services
                 </a>
               </li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </h3>
             <ul className="text-gray-500 dark:text-gray-400">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href="/contact" className="hover:underline">
                   Contact Us
                 </a>
               </li>

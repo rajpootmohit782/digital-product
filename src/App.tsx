@@ -8,7 +8,12 @@ import Review from "./components/Review.jsx";
 import Design from "./components/Design.jsx";
 import FrequentQuestions from "./components/FrequentQuestions.jsx";
 import Team from "./components/Team.jsx";
-import App1 from "./components/Resume/App1.jsx";
+// import App1 from "./components/Resume/App1.jsx";
+import ContactPage from "./components/Contact.jsx";
+import AboutUsPage from "./components/AboutUsPage.jsx";
+import Services from "./components/Services.jsx";
+import Careers from "./components/Careers.jsx";
+import BookAMeeting from "./components/BookAMeeting.jsx";
 import "./App.css";
 
 function App() {
@@ -24,6 +29,11 @@ function App() {
         <Route path="/frequent-questions" element={<FrequentQuestions />} />
         <Route path="/app" element={<App />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/aboutUs" element={<AboutUsPage />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/meeting" element={<BookAMeeting />} />
       </Routes>
       <Footer />
     </Router>
