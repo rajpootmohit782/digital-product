@@ -104,7 +104,6 @@ const FrequentQuestions = () => {
                 </p>
               </div>
             </div>
-            {/* Add more questions */}
             {/* Question 3 */}
             <h3 id="accordion-flush-heading-3">
               <button
@@ -113,7 +112,7 @@ const FrequentQuestions = () => {
                 onClick={() => handleToggleQuestion(3)}
               >
                 <span>
-                  How can Ramtech help improve my brand's online presence?
+                  What are the benefits of investing in Ramtech's SEO services?
                 </span>
                 <svg
                   data-accordion-icon=""
@@ -137,15 +136,15 @@ const FrequentQuestions = () => {
             >
               <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                 <p className="mb-2 text-gray-500 dark:text-gray-400">
-                  Ramtech can enhance your brand's online presence through
-                  various digital marketing strategies. We can optimize your
-                  website for search engines (SEO), manage your social media
-                  accounts, run targeted online advertising campaigns, create
-                  engaging content, and much more.
+                  Investing in Ramtech's SEO services can significantly boost
+                  your website's visibility on search engines, leading to
+                  increased organic traffic, higher rankings, and improved brand
+                  recognition.
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
-                  Our goal is to help your brand stand out in the digital
-                  landscape and attract more customers.
+                  Our SEO experts employ proven strategies to optimize your
+                  website's performance and help you achieve your business
+                  goals.
                 </p>
               </div>
             </div>

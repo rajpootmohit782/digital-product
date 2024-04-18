@@ -13,7 +13,7 @@ import ContactPage from "./components/Contact.jsx";
 import AboutUsPage from "./components/AboutUsPage.jsx";
 import Services from "./components/Services.jsx";
 import Careers from "./components/Careers.jsx";
-import BookAMeeting from "./components/BookAMeeting.jsx";
+import BookAMeeting from "./components/BookBmeeting.jsx";
 import "./App.css";
 
 function App() {
