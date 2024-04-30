@@ -128,8 +128,17 @@ const Footer = () => {
             href="#"
             className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <Logo />
+            {/* <Logo /> */}
             {/* RamTech Solutions */}
+            <a href="/" className="flex items-center">
+              <img
+                src="/zz1.png"
+                className="h-12 w-auto mr-10"
+                alt="Logo"
+                style={{ background: "transparent" }}
+              />
+              {/* <Logo /> */}
+            </a>
           </a>
           <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
             © 2021-2022 RamTech Solutions™. All Rights Reserved. Designed and

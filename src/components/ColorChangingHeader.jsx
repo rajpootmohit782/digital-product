@@ -35,7 +35,7 @@ function ColorChangingHeader() {
       <span
         style={{
           color: colors[(currentColorIndex + 2) % colors.length],
-          transition: `color ${transitionDuration}s ease ${2 * transitionDuration}s`,
+          transition: `color ${transitionDuration}s ease ${transitionDuration}s`,
         }}
       >
         Brands.
