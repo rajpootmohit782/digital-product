@@ -22,7 +22,7 @@ const Design = () => {
               <span style={{ color: "blue" }}>Identity.</span>
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">Rs2999</span>
+              <span className="mr-2 text-5xl font-extrabold">Rs4499</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             {/* List */}
@@ -60,7 +60,7 @@ const Design = () => {
               Give your Band Powers of Digital Marketing Growth Story.
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">Rs1999</span>
+              <span className="mr-2 text-5xl font-extrabold">Rs2999</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
             {/* List */}
@@ -98,7 +98,7 @@ const Design = () => {
               Best for large scale uses and extended redistribution rights.
             </p>
             <div className="flex items-baseline justify-center my-8">
-              <span className="mr-2 text-5xl font-extrabold">Rs299</span>
+              <span className="mr-2 text-5xl font-extrabold">Rs499</span>
               <span className="text-gray-500 dark:text-gray-400">/service</span>
             </div>
             {/* List */}

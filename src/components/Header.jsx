@@ -14,12 +14,12 @@ function Header() {
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="/" className="flex items-center">
             <img
-              src="/a3.jpg"
-              className="h-12 w-auto mr-8"
+              src="/zz1.png"
+              className="h-12 w-auto mr-10"
               alt="Logo"
               style={{ background: "transparent" }}
             />
-            <Logo />
+            {/* <Logo /> */}
           </a>
 
           <div className="flex items-center lg:order-2">
